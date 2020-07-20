@@ -1,0 +1,40 @@
+h1,h2{
+	font-family: Georgia;
+}
+
+p{
+	font-family: Helvetica;
+}
+
+h1{
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h2{
+	text-transform: capitalize;
+}
+
+p{
+	font-size: 18px;
+}
+
+p:first-line{
+	font-weight: bolder;
+}
+
+.image{
+	background-image: url(../img/background-img.jpg);
+}
+
+.caption{
+	background-color: white;
+	color: black;
+	opacity: 0.75;
+	font-style: italic;
+}
+
+.caption a:hover{
+	color: purple;
+	text-decoration: none;
+}
